@@ -1,10 +1,13 @@
 import React from "react";
-import "./App.css";
+import "./App.sass";
+import NavigationBar from "./NavigationBar.jsx";
+import Home from "./Home.jsx";
 
 function App() {
   return(
     <div className="App">
-      <h1>Hello World</h1>
+      <NavigationBar />
+      <Home />
     </div>
   )
 }
