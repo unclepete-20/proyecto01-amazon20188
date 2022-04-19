@@ -1,16 +1,18 @@
 import React from "react";
 import { Component } from "react";
+import "./NavigationBar.sass";
 
-class NavigationBar extends Component {
+export default class NavigationBar extends Component {
     render() {
         return (
             <div className="navigation-bar">
                 Navbar
+                <div className="logo-placeholder"></div>
+                <div className="location-placeholder">Guatemala</div>
             </div>
         );
     }
 }
 
-export default NavigationBar;
 
 
