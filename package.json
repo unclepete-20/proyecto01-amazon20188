@@ -1,8 +1,8 @@
 {
-  "name": "lab09",
+  "name": "proyecto01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --open",
     "build": "webpack --mode production",

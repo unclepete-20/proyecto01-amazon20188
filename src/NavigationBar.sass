@@ -1,13 +1,89 @@
 .navigation-bar
-    height: 70px
+    height: 60px
     width: 100vw
     background-color: rgba(19, 26, 34)
+    display: flex
 
 .logo-placeholder
     background: url("https://ik.imagekit.io/r8tquaqku5/sprite_350x_rMhwRXWtQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1650399300556") no-repeat -9px -50px
     width: 98px
     height: 31px
+    margin: 18px
+    margin-left: 20px
 
-.location-placeholder
+.location-placeholder-text
     color: white
     font-weight: bold
+    margin-left: 3px
+
+.location-placeholder-image
+    background: url("https://ik.imagekit.io/r8tquaqku5/sprite_350x_rMhwRXWtQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1650399300556") no-repeat -70px -378px
+    width: 16px
+    height: 18px
+
+.navigation-bar-location
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 20px 0px
+
+.location-placeholder-textAux
+    color: #cfcdca
+    font-size: 13px
+    position: absolute
+    top: 8px
+    margin-left: -14px
+
+.search-text-input
+    background-color: #f5f5f5
+    border: none
+    border-radius: 5px
+    width: 680px
+    height: 40px
+    padding: 0px 10px
+    font-size: 14px
+    color: #333
+    margin-top: 10px
+    margin-bottom: 10px
+    margin-left: -10px
+    margin-right: -10px
+    outline: none
+
+.navigation-bar-search
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 20px 0px
+
+.search-button-icon
+    background: url("https://ik.imagekit.io/r8tquaqku5/amazon_search_Av5IJKM-Xi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1650612231374") no-repeat center center
+    background-color: #FEBE68
+    background-size: 45%
+    width: 45px
+    height: 40px
+    margin: 18px
+    margin-left: -30px
+    border-top-right-radius: 5px
+    border-bottom-right-radius: 5px
+    outline: none
+    border: none
+    transition-duration: 0.4s
+    &:hover
+        background-color: #dea75f
+
+.form-control
+    background-color: #e6e5e5
+    display: flex
+    position: relative
+    border: none
+    border-radius: 5px 0px 0px 5px
+    width: 60px
+    height: 40px
+    margin-top: 1px
+    margin-left: 30px
+    text-align-last: center
+    outline: none
+    border: none
+    transition-duration: 0.4s
+    &:hover
+        background-color: #e6e5e594
