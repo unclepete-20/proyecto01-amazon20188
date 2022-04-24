@@ -24,7 +24,7 @@ module.exports = {
     rules: [
       // Loader for css files
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.(scss|sass|css)$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       // Loader for js files
