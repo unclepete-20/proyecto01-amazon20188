@@ -7,6 +7,7 @@ import AdOne from "./AdOneComponent.jsx";
 import Auth from "./MainAuthButton.jsx";
 
 export default class Home extends Component {
+
   render() {
     return(
       <div className="home-page-carousel">
