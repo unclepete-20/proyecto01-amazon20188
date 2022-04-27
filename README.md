@@ -53,3 +53,33 @@ npm i react react-dom react-router-dom
 npm i --save-dev @babel/core @babel/cli @babel/eslint-parser @babel/preset-env @babel/preset-react babel-loader
 ```
 
+### Material UI
+
+![image](https://user-images.githubusercontent.com/63658079/165629821-2d46b29b-1cc5-4280-97c9-8afdcd158dde.png)
+
+[Material UI](https://mui.com/) es una biblioteca completa de componentes que cuenta con una implementación del sistema Material Design de Google. Esto permitió darle un mejor aspecto visual a la interfaz de Amazon, a la vez que permitió obtener mejores resultados al momento de construir los componentes de dicha página.
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+### [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
+Componente de carrusel potente, ligero y totalmente personalizable para aplicaciones React. Esta dependencia y componente fue implementado en la sección de anuncios de la página principal de Amazon.
+```bash
+npm i react-responsive-carousel
+```
+### [react-alice-carousel](https://www.npmjs.com/package/react-alice-carousel)
+
+![react-alice-carousel](https://user-images.githubusercontent.com/63658079/165631627-1465029c-7713-4c28-a3ff-4e7592735d9c.gif)  ![react-alice-carousel-demo](https://user-images.githubusercontent.com/63658079/165631643-1caaa4b4-0037-4b4c-8ca6-7eacc684d287.gif)
+
+React Alice Carousel es un componente React para construir galerías de contenido, rotadores de contenido y cualquier carrusel React. Esta dependencia y componente fue utilizado para recrear la lista de productos.
+
+## Resultado final
+
+Con todas estas tecnologías implementadas, la creación de la página principal de Amazon fue exitosa. A continuación se presentan los resultados obtenidos:
+
+![image](https://user-images.githubusercontent.com/63658079/165632017-6ba4ec8e-673d-4c5b-b996-b4d290755caa.png)
+![image](https://user-images.githubusercontent.com/63658079/165632105-98b12f53-f622-4d35-8e93-89160a8bc9a9.png)
+
+## Licencia
+[MIT](https://choosealicense.com/licenses/mit/)
