@@ -17,8 +17,7 @@ Para este proyecto, se dicidió implementar la página principal de Amazon.
 
 ### npm
 
-![image](https://user-images.githubusercontent.com/63658079/165625081-d750c246-95f9-498c-8ea5-836544848cba.png)
-
+![2560px-Npm-logo svg (1)](https://user-images.githubusercontent.com/63658079/165651215-f3b867df-5a52-4094-8b1d-432f5278b722.png)
 
 [npm](https://www.npmjs.com/) es el gestor de paquetes para Node.js. Fue creado en 2009 como un proyecto de código abierto para ayudar a los desarrolladores de JavaScript a compartir fácilmente módulos de código empaquetados. Este gestor de paquetes permitió crear el esqueleto principal del proyecto para poder instalar y manejar todas las dependencias implementadas para desarrollar el proyecto.
 
